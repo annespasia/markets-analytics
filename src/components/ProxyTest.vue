@@ -25,7 +25,7 @@ export default {
     },
     getTopVolume() {
       const req = request({
-        url: "/api/topVolume",
+        url: "/topVolume",
         method: "get",
         // params: { token }
       });

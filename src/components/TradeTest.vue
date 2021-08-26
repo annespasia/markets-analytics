@@ -1,5 +1,6 @@
 <template>
-<trading-vue :data="this.$data"></trading-vue>
+<!-- <trading-vue :data="this.$data"></trading-vue> -->
+<div class="tardeTest"></div>
 </template>
 <script>
 
