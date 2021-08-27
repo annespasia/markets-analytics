@@ -89,7 +89,6 @@
           {{scope.row.month}}
         </template>
       </el-table-column>
-      <!-- <template v-else></template> -->
       <el-table-column
         prop="week"
         label="Week"
@@ -98,8 +97,6 @@
           {{scope.row.week}}
         </template>
       </el-table-column>
-      <!-- </template> -->
-      <!-- <template v-else></template> -->
       <el-table-column
         prop="ohlcSub.openMin"
         label="Min open">
