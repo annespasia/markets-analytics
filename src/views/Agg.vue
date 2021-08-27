@@ -83,7 +83,7 @@
         <el-table-column
         prop="month"
         label="Month"
-        width="100" v-if="stockData[0].month"
+        width="100" v-if="stockData[1].month"
         >
         <template slot-scope="scope">
           {{scope.row.month}}
@@ -92,7 +92,7 @@
       <el-table-column
         prop="week"
         label="Week"
-        width="100" v-if="stockData[0].week" >
+        width="100" v-if="stockData[1].week" >
         <template slot-scope="scope">
           {{scope.row.week}}
         </template>
