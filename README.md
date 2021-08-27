@@ -1,6 +1,15 @@
-# proxy-test
+# Markets Analytics
+
+Backend of this project is here👉https://github.com/BSXRB/MarketDataAnalysis
+
+## Page preview
+
+![](/src/assets/example.png)
+
+
 
 ## Project setup
+
 ```
 npm install
 ```
