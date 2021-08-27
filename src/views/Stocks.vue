@@ -23,7 +23,7 @@
             ></el-col>
             <el-col :span="16">
               <el-form-item label="Date range">
-                <el-col :span="7">
+                <el-col :span="11">
                   <el-date-picker
                     type="date"
                     placeholder="Pick start date"
@@ -31,8 +31,8 @@
                     style="width: 100%"
                   ></el-date-picker>
                 </el-col>
-                <el-col class="line" :span="2">-</el-col>
-                <el-col :span="7">
+                <el-col class="line" :span="1">-</el-col>
+                <el-col :span="11">
                   <el-date-picker
                     placeholder="Pick end date"
                     v-model="params.endDate"
@@ -123,20 +123,20 @@ export default {
       option: null,
       options:[
         {
-          label:"3M",
-          value:"MMM"
+          label:"Altaba Inc.",
+          value:"AABA"
         },{
           label:"American Express",
           value:"AXP"
         },{
-          label:"Amgen",
-          value:"AMGN"
+          label:"Amazon",
+          value:"AMZN"
         },{
           label:"Apple Inc.",
           value:"AAPL"
         },{
           label:"Boeing",
-          value:"ba"
+          value:"BA"
         },{
           label:"Caterpillar Inc.",
           value:"CAT"
@@ -150,17 +150,17 @@ export default {
           label:"The Coca-Cola Company",
           value:"KO"
         },{
-          label:"Dow Inc.",
-          value:"DOWL"
+          label:"General Electric Company",
+          value:"GE"
         },{
-          label:"Goldman Sachs	",
+          label:"Alphabet Inc.",
+          value:"GOOGL"
+        },{
+          label:"Goldman Sachs",
           value:"GS"
         },{
           label:"The Home Depot",
           value:"HD"
-        },{
-          label:"Honeywell",
-          value:"HON"
         },{
           label:"IBM",
           value:"IBM"
@@ -189,8 +189,8 @@ export default {
           label:"Procter & Gamble",
           value:"PG"
         },{
-          label:"Salesforce",
-          value:"CRM"
+          label:"3M",
+          value:"MMM"
         },{
           label:"The Travelers Companies",
           value:"TRV"
@@ -207,8 +207,8 @@ export default {
           label:"Walgreens Boots Alliance	",
           value:"WBA"
         },{
-          label:"Walmart",
-          value:"	WMT"
+          label:"United Technologies Corp Stock Price",
+          value:"	UTX"
         },{
           label:"The Walt Disney Company",
           value:"DIS"

@@ -24,6 +24,40 @@ export function parseData(data){
   return parsed
 }
 
+export function parseSortedData(data){
+  let parsed=[]
+  for (let elem of data){
+    let open,high,low,close,volume,name;
+    ({open,high,low,close,volume,name}=elem)
+    let elem_=[name,parseFloat(open),parseFloat(close),parseFloat(low),parseFloat(high),parseFloat(volume)]
+    // parseDate(date)
+    // let unit=Object.values(elem_)
+    parsed.push(elem_)
+    // console.log(elem,elem_)
+  }
+  return parsed
+}
+
+// export function parseAggData(data){
+//   let parsed=[]
+//   for (let elem of data){
+//     let date,open,high,low,close,volume;
+//     ({date,open,high,low,close,volume}=elem)
+//     let elem_=[date,parseFloat(open),parseFloat(close),parseFloat(low),parseFloat(high),parseFloat(volume)]
+//     // parseDate(date)
+//     // let unit=Object.values(elem_)
+//     parsed.push(elem_)
+//     // console.log(elem,elem_)
+//   }
+//   parsed=parsed.sort((a, b)=> {
+//     // Compare the 2 dates
+//     if (a[0] < b[0]) return -1;
+//     if (a[0] > b[0]) return 1;
+//     return 0;
+//   });
+//   return parsed
+// }
+
 export function parseDate(date){
   let timeStamp;
   timeStamp=Date.parse(new Date(date))
