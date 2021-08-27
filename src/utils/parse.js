@@ -9,7 +9,8 @@ export function parseData(data){
   for (let elem of data){
     let date,open,high,low,close,volume;
     ({date,open,high,low,close,volume}=elem)
-    let elem_=[parseDate(date),parseFloat(open),parseFloat(high),parseFloat(low),parseFloat(close),parseFloat(volume)]
+    let elem_=[date,parseFloat(open),parseFloat(close),parseFloat(low),parseFloat(high),parseFloat(volume)]
+    // parseDate(date)
     // let unit=Object.values(elem_)
     parsed.push(elem_)
     // console.log(elem,elem_)

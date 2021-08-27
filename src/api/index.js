@@ -8,10 +8,11 @@ export function getTopVolume(){
   })
 }
 
-export function getStocks(stock,startDate,endDate){
+export function getStocks(data){
   return request({
     url: "/stocks",
     method: "get",
-    params: { name:stock,startDate,endDate }
+    params: data
+    // params:{name:"AAPL",startDate:"2009-01-01",endDate:"2015-12-31"}
   })
 }

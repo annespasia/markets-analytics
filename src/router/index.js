@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 // import Home from '../views/Home.vue'
-import Stocks from '../views/Stocks.vue'
+import Stocks1 from '../views/Stocks.vue'
 
 Vue.use(VueRouter)
 
@@ -14,7 +14,7 @@ const routes = [
   {
     path: '/',
     name: 'Stocks',
-    component: Stocks
+    component: Stocks1
   },
   {
     path: '/about',

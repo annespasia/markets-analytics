@@ -46,7 +46,7 @@ export default {
     handleSelect() {},
     handleClick() {
       // console.log("click");
-      this.isCollapse = !this.isCollapse;
+      // this.isCollapse = !this.isCollapse;
     },
   },
   computed: {
